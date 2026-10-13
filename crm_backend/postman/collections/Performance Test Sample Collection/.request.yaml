@@ -1,0 +1,32 @@
+$kind: http-request
+name: ""
+url: http://127.0.0.1:8000/api/v1/companies
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Accenture\",\r
+
+    \  \"industry\": \"IT Consulting\",\r
+
+    \  \"website\": \"www.accenture.in\",\r
+
+    \  \"phone\": \"+9187366272\",\r
+
+    \  \"email\": \"about@accenture.com\",\r
+
+    \  \"address\": \"Magarpatta\",\r
+
+    \  \"city\": \"Pune\",\r
+
+    \  \"state\": \"Maharashtra\",\r
+
+    \  \"country\": \"India\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZXhwIjoxNzkxODc2Mzc3fQ.sEY9_2h4mTP9-44aCUBUExDaPiVUjKdpTk8z6RMnPaU
+order: 1000
