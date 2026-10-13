@@ -1,0 +1,16 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Node.js
+node_modules/
+dist/
+
+# Environment variables
+.env
+.env.*
+
+# Allow example environment templates
+!.env.example
